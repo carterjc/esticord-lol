@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262426;
+}
+
+.Nav_item {
+    float: left;
+}
+
+.Nav_link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Nav_link:hover {
+    background-color: #141314;
+}
+
+@media (min-width: 768px) {
+    .container-fluid>.navbar-header,
+    .container>.navbar-header {
+      width: 15%; /*31% as you mentioned in comments*/
+    }
+    .navbar-brand {
+      width: auto;
+      height: auto;
+      max-height: 150px;
+      max-width: 100%;
+      display: block;
+      margin: auto;
+    }
+}

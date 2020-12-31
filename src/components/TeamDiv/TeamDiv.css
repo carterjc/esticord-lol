@@ -1,0 +1,49 @@
+div.teams {
+    flex: 50%;
+    padding: 10px 5px 10px;
+}
+.team1 {
+    padding: 10px 5px 10px;
+    margin: auto;
+    width: 40%;
+    border-radius: 50px;
+    border: 6px solid blue;
+}
+
+.team2 {
+    padding: 10px 5px 10px;
+    margin: auto;
+    width: 40%;
+    border-radius: 50px;
+    border: 6px solid red;
+}
+
+.card {
+    margin: 25px auto;
+    padding: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    padding: 10px 5px 10px;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+}
+
+.error {
+    margin: auto;
+    text-align: center;
+}
+
+.loading {
+    margin: auto;
+    text-align: center;
+}
+
+.time {
+    text-align: center;
+}
